@@ -1,0 +1,10 @@
+.imagenCelda {
+    width: 20px;
+    height: auto;
+    transition: transform 0.3s;
+}
+
+/* Establece el tamaño más grande de la imagen al hacer clic */
+.imagenCelda:hover {
+    transform: scale(1.5);
+}

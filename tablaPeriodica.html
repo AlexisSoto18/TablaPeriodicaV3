@@ -1,0 +1,1094 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla de quimica</title>
+    <link rel="stylesheet" href="adaptacion.css">
+    <link rel="stylesheet" href="sonido.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tabla.css">
+    <link rel="stylesheet" href="letras.css">
+    <link rel="stylesheet" href="metales.css">
+    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="agrupacion.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Croissant+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Changa+One&family=Croissant+One&family=Space+Mono:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div><a href="index.html"><button class="Regreso" onclick="setBorderClasification('')"><span>INICIO</span></button></a></div>
+    <h1 class="titulo">Tabla Periódica de los Elementos</h1>
+    <div></div>
+    <table class="tabla_periodica container">
+        <div>
+        <tr>
+            <th class="tabla-columna titulo_1" >Períodos</th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th></th>
+            <th><button class="Gases_nobles2" onclick="setBorderClasification('Gases_nobles')"><span>Gases Nobles</span></button></th>
+            <th class="titulo_1">Nivel de energía</th>
+        </tr>
+        <!--Hidrogeno-->
+        <tr>  
+            <td><p><span class="periodos">1</span></p></td>
+            <div>
+                <td class="metales_ligeros PredominanteMetalico">
+                <p class="contenedor-numeros">
+                <span class="value-1">1</span>
+                <span class="value-2">+/-1</span> </p>
+                <p class="simbolos">H</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Hidrogeno</p><p class="masa_atomic ">1.00794(7)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('hidrogeno.mp3')">
+            </td></div> 
+            <div><th><button class="Metal2" onclick="setBorderClasification('metal')"><span>Metal</span></button></th></div>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                    <th><button class="Metaloides2" onclick="setBorderClasification('Metaloides')"><span>Metaloides</span></button></th>
+                    <th class="alinear" colspan="4"><button class="No_Metal2" onclick="setBorderClasification('No_Metal')"><span>No Metales</span></button></th>
+                    <td class="Gases_nobles No_metalico">
+                        <p class="contenedor-numeros">
+                        <span class="value-1">2</span>
+                        <span class="value-2">0</span></p>
+                        <p class="simbolos">He</p>  
+                        <p class="contenedor-numeros"><span><p class="nombre">Helio</p><p class="masa_atomic ">4.002602(2)</p></span></p>
+                        <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('2.mp3')">
+                        <th><p><span class="Level_energi">K</span></p></th>
+                    </td>
+        <tr class="metales">
+                <td><p><span class="periodos">2</span></p></td>
+                <td class="metal metalic MetalesAlcalinos2"><p class="contenedor-numeros">
+                    <span class="value-1">3</span>
+                    <span class="value-2">1</span></p>
+                    <p class="simbolos_negros">Li</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Litio</p><p class="masa_atomic ">[6.941(2)]</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('li.mp4')">
+                </td>
+                <td class="metal Anfoteros"><p class="contenedor-numeros">
+                    <span class="value-1">4</span>
+                    <span class="value-2">2</span></p>
+                    <p class="simbolos_negros">Be</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Berilio</p><p class="masa_atomic ">9.012182(3)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('4.mp3')">
+                </td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td class="Metaloides PredominanteNoMetalico"><p class="contenedor-numeros">
+                    <span class="value-1">5</span>
+                    <span class="value-2">3</span></p>
+                    <p class="simbolos_negros">B</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Boro</p><p class="masa_atomic ">10.811(7)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('5.mp4')">
+                </td>
+                <td class="No_Metal No_metalico"><p class="contenedor-numeros">
+                    <span class="value-1">6</span>
+                    <span class="value-2">2/+-4</span></p>
+                    <p class="simbolos_negros">C</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Carbono</p><p class="masa_atomic ">12.0107(8)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('6.mp3')">
+                </td>
+                <td class="No_Metal No_metalico"><p class="contenedor-numeros">
+                    <span class="value-1">7</span>
+                    <span class="value-2">+-1/2/3/+5</span></p>
+                    <p class="simbolos">N</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Nitrógeno</p><p class="masa_atomic ">14.0067(2)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('7.mp4')">
+                </td>
+                <td class="No_Metal No_metalico"><p class="contenedor-numeros">
+                    <span class="value-1">8</span>
+                    <span class="value-2">-1/+-2</span></p>
+                    <p class="simbolos">O</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Oxígeno</p><p class="masa_atomic ">15.9994(3)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('8.mp3')">
+                </td>
+                <td class="No_Metal No_metalico"><p class="contenedor-numeros">
+                    <span class="value-1">9</span>
+                    <span class="value-2">-1</span></p>
+                    <p class="simbolos">F</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Flúor</p><p class="masa_atomic ">18.9984042(5)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('9.mp4')">   
+                </td>
+                <td class="Gases_nobles No_metalico">
+                    <p class="contenedor-numeros">
+                    <span class="value-1">10</span>
+                    <span class="value-2">0</span></p>
+                    <p class="simbolos">Ne</p>
+                    <p class="contenedor-numeros"><span><p class="nombre">Neón</p><p class="masa_atomic ">20.1797(6)</p></span></p>
+                    <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('10.mp3')">  
+                    <th><p><span class="Level_energi">K</span><br>
+                    <span class="Level_energi">L</span><br></p>
+                    </th>
+                </td>
+        </tr>
+
+        <tr>
+            <td><p><span class="periodos">3</span></p></td>
+            <td class="metal metalic MetalesAlcalinos2">
+                <p class="contenedor-numeros">
+                <span class="value-1">11</span>
+                <span class="value-2">1</span></p>
+                <p class="simbolos_negros">Na</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Sodio</p><p class="masa_atomic ">22.989770(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('11.mp4')">
+            </td>
+            <td class="metal metalic">
+                <p class="contenedor-numeros">
+                <span class="value-1">12</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Mg</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Magnesio</p><p class="masa_atomic ">24.3050(6)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('12.mp3')">   
+            </td>
+            <div><th colspan="10"><button class="metal_trancision2" onclick="setBorderClasification('metal_trancision')"><span>Metal De Transición</span></button></th></div>
+            <td class="metal metalic">
+                <p class="contenedor-numeros">      
+                <span class="value-1">13</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Al</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Aluminio</p><p class="masa_atomic ">26.981538(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('13.mp4')">
+            </td>
+            <td class="Metaloides No_metalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">14</span>
+                <span class="value-2">4</span></p>
+                <p class="simbolos_negros">Si</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Silicio</p><p class="masa_atomic ">28.0855(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('14.mp3')">
+            </td>
+            <td class="No_Metal No_metalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">15</span>
+                <span class="value-2">+-3,4,5</span></p>
+                <p class="simbolos_negros">P</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Fósforo</p><p class="masa_atomic ">30.973761(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('15.mp4')"> 
+            </td>
+            <td class="No_Metal No_metalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">16</span>
+                <span class="value-2">+-2,4,6</span></p>
+                <p class="simbolos_negros">S</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Azufre</p><p class="masa_atomic ">32.065(5)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('16.mp3')"> 
+            </td>
+            <td class="No_Metal No_metalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">17</span>
+                <span class="value-2">+-1,3,5,7</span></p>
+                <p class="simbolos">Cl</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cloro</p><p class="masa_atomic ">35.453(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('17.mp4')">
+            </td>   
+            <td class="Gases_nobles No_metalico">
+                <p class="contenedor-numeros">
+                <span class="value-1">18</span>
+                <span class="value-2">0</span></p>
+                <p class="simbolos">Ar</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Argón</p><p class="masa_atomic ">39.948(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('18.mp3')">   
+                <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span></p></th>
+            </td>
+
+        </tr>
+             <td><p><span class="periodos">4</span></p></td>
+            <td class="metal metalic MetalesAlcalinos2">
+                <p class="contenedor-numeros">      
+                <span class="value-1">19</span>
+                <span class="value-2">1</span></p>
+                <p class="simbolos_negros">K</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Potasio</p><p class="masa_atomic ">39.0983(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('19.mp4')">
+            </td>
+            <td class="metal metalic">
+                <p class="contenedor-numeros">      
+                <span class="value-1">20</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Ca</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Calcio</p><p class="masa_atomic ">40.078(4)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('20.mp3')"> 
+            </td>    
+            <td class="metal_trancision PredominanteMetalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">21</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Sc</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Escandio</p><p class="masa_atomic ">44.955910(8)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('21.mp4')"> 
+            </td>
+            <td class="metal_trancision Anfoteros">
+                <p class="contenedor-numeros">      
+                <span class="value-1">22</span>
+                <span class="value-2">2,3,4</span></p>
+                <p class="simbolos_negros">Ti</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Titanio</p><p class="masa_atomic ">47.867(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('22.mp3')"> 
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">23</span>
+                <span class="value-2">2,3,4,5</span></p>
+                <p class="simbolos_negros">V</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Vanadio</p><p class="masa_atomic ">50.9415(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('23.mp4')"> 
+            </td>
+            <td class="metal_trancision Anfoteros">
+                <p class="contenedor-numeros">      
+                <span class="value-1">24</span>
+                <span class="value-2">2,3,6</span></p>
+                <p class="simbolos_negros">Cr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cromo</p><p class="masa_atomic ">51.9961(6)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('24.mp3')"> 
+            </td> 
+            <td class="metal_trancision Anfoteros">
+                <p class="contenedor-numeros">      
+                <span class="value-1">25</span>
+                <span class="value-2">2,3,4,5,6,7</span></p>
+                <p class="simbolos_negros">Mn</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Manganeso</p><p class="masa_atomic ">54.938049(9)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('25.mp4')"> 
+            </td> 
+            <td class="metal_trancision PredominanteMetalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">26</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Fe</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Hierro</p><p class="masa_atomic ">55.845(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('26.mp3')"> 
+            </td> 
+            <td class="metal_trancision PredominanteMetalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">27</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Co</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cobalto</p><p class="masa_atomic ">58.933200(9)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('27.mp4')">
+            </td> 
+            <td class="metal_trancision metalic">
+                <p class="contenedor-numeros">      
+                <span class="value-1">28</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Ni</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Niquel</p><p class="masa_atomic ">58.69334(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('28.mp3')">
+            </td> 
+            <td class="metal_trancision metalic">
+                <p class="contenedor-numeros">      
+                <span class="value-1">29</span>
+                <span class="value-2">1,2</span></p>
+                <p class="simbolos_negros">Cu</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cobre</p><p class="masa_atomic ">63.546(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('29.mp4')">
+            </td> 
+            <td class="metal_trancision Anfoteros">
+                <p class="contenedor-numeros">      
+                <span class="value-1">30</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Zn</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Zinc</p><p class="masa_atomic ">65.409(4)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('30.mp3')"> 
+            </td>
+            <td class="metal metalic">
+                <p class="contenedor-numeros">      
+                <span class="value-1">31</span>
+                <span class="value-2">3</span></p>
+                <p class="blue">Ga</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Galio</p><p class="masa_atomic ">69.723(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('31.mp4')"> 
+            </td>
+            <td class="Metaloides Anfoteros">
+                <p class="contenedor-numeros">      
+                <span class="value-1">32</span>
+                <span class="value-2">2,4</span></p>
+                <p class="simbolos_negros">Ge</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Germanio</p><p class="masa_atomic ">72.64(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('32.mp3')"> 
+            </td>
+            <td class="Metaloides PredominanteNoMetalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">33</span>
+                <span class="value-2">+-3,5</span></p>
+                <p class="simbolos_negros">As</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Arsénico</p><p class="masa_atomic ">74.92160(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('33.mp4')">
+            </td>
+            <td class="No_Metal PredominanteNoMetalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">34</span>
+                <span class="value-2">-2,4,6</span></p>
+                <p class="simbolos_negros">Se</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Selenio</p><p class="masa_atomic ">78.96(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('34.mp3')"> 
+            </td>
+            <td class="No_Metal No_metalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">35</span>
+                <span class="value-2">+-1,3,5</span></p>
+                <p class="blue">Br</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Bromo</p><p class="masa_atomic ">79.904(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('35.mp4')"> 
+            </td>
+            <td class="Gases_nobles No_metalico">
+                <p class="contenedor-numeros">      
+                <span class="value-1">36</span>
+                <span class="value-2">2,4,6</span></p>
+                <p class="simbolos">Kr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Criptón</p><p class="masa_atomic ">83.796</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('36.mp3')"> 
+            </td>
+            <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span><br>
+                <span class="Level_energi">N</span></p>
+            </th>
+        </tr>
+        <tr>
+            <td><p><span class="periodos">5</span></p></td>
+            <td class="metal metalic MetalesAlcalinos2"><p class="contenedor-numeros">
+                <span class="value-1">37</span>
+                <span class="value-2">1</span></p>
+                <p class="simbolos_negros">Rb</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Rubidio</p><p class="masa_atomic ">85.4678(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('37.mp4')">
+            </td>
+            <td class="metal metalic"><p class="contenedor-numeros">
+                <span class="value-1">38</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Sr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Estroncio</p><p class="masa_atomic ">87.62(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('38.mp3')">
+            </td>
+            <td class="metal_trancision metalic"><p class="contenedor-numeros">
+                <span class="value-1">39</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Y</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Itrio</p><p class="masa_atomic ">88.90585(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('39.mp4')">
+            </td>
+            <td class="metal_trancision Anfoteros"><p class="contenedor-numeros">
+                <span class="value-1">40</span>
+                <span class="value-2">3,4</span></p>
+                <p class="simbolos_negros">Zr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Zirconio</p><p class="masa_atomic ">91.224(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('40.mp3')">
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">41</span>
+                <span class="value-2">2,3,4,5</span></p>
+                <p class="simbolos_negros">Nb</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Niobio</p><p class="masa_atomic ">92.90638(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('41.mp4')">
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">42</span>
+                <span class="value-2">2,3,4,5,6</span></p>
+                <p class="simbolos_negros">Mo</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Molibdeno</p><p class="masa_atomic ">95.94(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('42.mp3')">
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">43</span>
+                <span class="value-2">4,5,6,7</span></p>
+                <p class="simbolos">Tc</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Tecnecio</p><p class="masa_atomic ">[98]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('43.mp4')">
+            </td>
+            <td class="metal_trancision Anfoteros"><p class="contenedor-numeros">
+                <span class="value-1">44</span>
+                <span class="value-2">2,3,4,5,6</span></p>
+                <p class="simbolos_negros">Ru</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Rutenio</p><p class="masa_atomic ">101.07(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('44.mp3')">
+            </td>
+            <td class="metal_trancision PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">45</span>
+                <span class="value-2">2,3,4</span></p>
+                <p class="simbolos_negros">Rh</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Rodio</p><p class="masa_atomic ">102.90550(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('45.mp4')">
+            </td>
+            <td class="metal_trancision PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">46</span>
+                <span class="value-2">2,4</span></p>
+                <p class="simbolos_negros">Pd</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Paladio</p><p class="masa_atomic ">106.42(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('46.mp3')">
+            </td>
+            <td class="metal_trancision metalic"><p class="contenedor-numeros">
+                <span class="value-1">47</span>
+                <span class="value-2">1</span></p>
+                <p class="simbolos_negros">Ag</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Plata</p><p class="masa_atomic ">107.8682(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('47.mp4')">
+            </td>
+            <td class="metal_trancision metalic"><p class="contenedor-numeros">
+                <span class="value-1">48</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Cd</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cadmio</p><p class="masa_atomic ">112.411(8)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('48.mp3')">
+            </td>
+            <td class="metal PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">49</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">In</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Indio</p><p class="masa_atomic ">114.818(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('49.mp4')">
+            </td>
+            <td class="metal Anfoteros"><p class="contenedor-numeros">
+                <span class="value-1">50</span>
+                <span class="value-2">2,4</span></p>
+                <p class="simbolos_negros">Sn</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Estaño</p><p class="masa_atomic ">118.710(7)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('50.mp3')">
+            </td>
+            <td class="Metaloides Anfoteros"><p class="contenedor-numeros">
+                <span class="value-1">51</span>
+                <span class="value-2">+-3,5</span></p>
+                <p class="simbolos_negros">Sb</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Antimonio</p><p class="masa_atomic ">121.760(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('51.mp4')">
+            </td>
+            <td class="Metaloides PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">52</span>
+                <span class="value-2">-2,4,6</span></p>
+                <p class="simbolos_negros">Te</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Telurio</p><p class="masa_atomic ">127.60(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('52.mp3')">
+            </td>
+            <td class="No_Metal PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">53</span>
+                <span class="value-2">+-1,5,7</span></p>
+                <p class="simbolos_negros">I</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Yodo</p><p class="masa_atomic ">126.90447(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('53.mp4')">
+            </td>
+            <td class="Gases_nobles No_metalico"><p class="contenedor-numeros">
+                <span class="value-1">54</span>
+                <span class="value-2">2,4,6,8</span></p>
+                <p class="simbolos_negros">Xe</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Xenón</p><p class="masa_atomic ">131.293(6)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('54.mp3')">
+            </td>
+            <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span><br>
+                <span class="Level_energi">N</span><br>
+                <span class="Level_energi">O</span></p>
+            </th>
+        </tr>
+        <tr>
+            <td><p><span class="periodos">6</span></p></td>
+            <td class="metal metalic MetalesAlcalinos2"><p class="contenedor-numeros">
+                <span class="value-1">55</span>
+                <span class="value-2">1</span></p>
+                <p class="blue">Cs</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cesio</p><p class="masa_atomic ">132.90545(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('55.mp4')">
+            </td>
+            <td class="metal metalic"><p class="contenedor-numeros">
+                <span class="value-1">56</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Ba</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Bario</p><p class="masa_atomic ">137.327(7)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('56.mp3')">
+            </td>
+            <td class="Serie_aterisco"><p class="contenedor-numeros">
+                <span class="value-1">57-71</span>
+                <span class="value-2"></span></p>
+                <p class="continuacion">*</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Serie Del Lantano</p><p class="masa_atomic "></p></span></p>
+            </td>
+            <td class="metal_trancision metalic"><p class="contenedor-numeros">
+                <span class="value-1">72</span>
+                <span class="value-2">3,4</span></p>
+                <p class="simbolos_negros">Hf</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Hafnio</p><p class="masa_atomic ">178.49(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('72.mp3')">
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">73</span>
+                <span class="value-2">4,5</span></p>
+                <p class="simbolos_negros">Ta</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Tantalio</p><p class="masa_atomic ">180.9479(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('73.mp4')">
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">74</span>
+                <span class="value-2">2,3,4,5,6</span></p>
+                <p class="simbolos_negros">W</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Tungsteno</p><p class="masa_atomic ">183.84(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('74.mp3')">
+            </td>
+            <td class="metal_trancision PredominanteNoMetalico"><p class="contenedor-numeros">
+                <span class="value-1">75</span>
+                <span class="value-2">2,3,4,5,6,7</span></p>
+                <p class="simbolos_negros">Re</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Renio</p><p class="masa_atomic ">186.207(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('75.mp4')">
+            </td>
+            <td class="metal_trancision PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">76</span>
+                <span class="value-2">3,4,6</span></p>
+                <p class="simbolos_negros">Os</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Osmio</p><p class="masa_atomic ">190.23(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('76.mp3')">
+            </td>
+            <td class="metal_trancision PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">77</span>
+                <span class="value-2">2,3,4,5,6</span></p>
+                <p class="simbolos_negros">Ir</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Iridio</p><p class="masa_atomic ">192.217(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('77.mp4')">
+            </td>
+            <td class="metal_trancision PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">78</span>
+                <span class="value-2">2,4</span></p>
+                <p class="simbolos_negros">Pt</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Platino</p><p class="masa_atomic ">195.078(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('78.mp3')">
+            </td>
+            <td class="metal_trancision metalic"><p class="contenedor-numeros">
+                <span class="value-1">79</span>
+                <span class="value-2">1,3</span></p>
+                <p class="simbolos_negros">Au</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Oro</p><p class="masa_atomic ">196.96655(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('79.mp4')">
+            </td>
+            <td class="metal_trancision metalic"><p class="contenedor-numeros">
+                <span class="value-1">80</span>
+                <span class="value-2">1,2</span></p>
+                <p class="blue">Hg</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Mercurio</p><p class="masa_atomic ">200.59(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('80.mp3')">
+            </td>
+            <td class="metal metalic"><p class="contenedor-numeros">
+                <span class="value-1">81</span>
+                <span class="value-2">1,2</span></p>
+                <p class="simbolos_negros">Tl</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Talio</p><p class="masa_atomic ">204.3833(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('81.mp4')">
+            </td>
+            <td class="metal PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">82</span>
+                <span class="value-2">2,4</span></p>
+                <p class="simbolos_negros">Pb</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Plomo</p><p class="masa_atomic ">207.2(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('82.mp3')">
+            </td>
+            <td class="metal PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">83</span>
+                <span class="value-2">+-3,5</span></p>
+                <p class="simbolos_negros">Bi</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Bismuto</p><p class="masa_atomic ">208.98038(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('83.mp4')">
+            </td>
+            <td class="Metaloides PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">84</span>
+                <span class="value-2">2,4</span></p>
+                <p class="simbolos_negros">Po</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Polonio</p><p class="masa_atomic ">[209]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('84.mp3')">
+            </td>
+            <td class="No_Metal PredominanteMetalico"><p class="contenedor-numeros">
+                <span class="value-1">85</span>
+                <span class="value-2">+-1,5</span></p>
+                <p class="simbolos_negros">At</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Astato</p><p class="masa_atomic ">[210]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('85.mp4')">
+            </td>
+            <td class="Gases_nobles No_metalico"><p class="contenedor-numeros">
+                <span class="value-1">86</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Rn</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Radón</p><p class="masa_atomic ">[222]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('86.mp3')">
+            </td>
+            <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span><br>
+                <span class="Level_energi">N</span><br>
+                <span class="Level_energi">O</span><br>
+                <span class="Level_energi">P</span></p>
+            </th>
+        </tr>
+        <tr>
+            <td><p><span class="periodos">7</span></p></td>
+            <td class="metal metalic MetalesAlcalinos2"><p class="contenedor-numeros">
+                <span class="value-1">87</span>
+                <span class="value-2">1</span></p>
+                <p class="simbolos_negros">Fr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Francio</p><p class="masa_atomic ">[223]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('87.mp4')">
+            </td>
+            <td class="metal metalic"><p class="contenedor-numeros">
+                <span class="value-1">88</span>
+                <span class="value-2">2</span></p>
+                <p class="simbolos_negros">Ra</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Radio</p><p class="masa_atomic ">[226]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('88.mp3')">
+            </td>
+            <td class="Serie_aterisco"><p class="contenedor-numeros">
+                <span class="value-1">89-103</span>
+                <span class="value-2"></span></p>
+                <p class="continuacion_amarilla">*</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Serie Del Actinio</p><p class="masa_atomic "></p></span></p>
+            </td>
+            <td class="metal_trancision Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">104</span>
+                <span class="value-2">4</span></p>
+                <p class="orange">Rf</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Rutherfordio</p><p class="masa_atomic ">[261]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('104.mp3')">
+            </td>
+            <td class="metal_trancision Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">105</span>
+                <span class="value-2">5</span></p>
+                <p class="orange">Db</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Dubnio</p><p class="masa_atomic ">[262]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('105.mp4')">
+            </td>
+            <td class="metal_trancision Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">106</span>
+                <span class="value-2">6</span></p>
+                <p class="orange">Sg</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Seabordio</p><p class="masa_atomic ">[266]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('106.mp3')">
+            </td>
+            <td class="metal_trancision Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">107</span>
+                <span class="value-2">7</span></p>
+                <p class="orange">Bh</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Bohrio</p><p class="masa_atomic ">[264]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('107.mp4')">
+            </td>
+            <td class="metal_trancision Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">108</span>
+                <span class="value-2">3</span></p>
+                <p class="orange">Hs</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Hassio</p><p class="masa_atomic ">[277]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('108.mp3')">
+            </td>
+            <td class="metal_trancision Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">109</span>
+                <span class="value-2">2</span></p>
+                <p class="orange">Mt</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Meitnerio</p><p class="masa_atomic ">[268]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('109.mp4')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">110</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Ds</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Darmstadtio</p><p class="masa_atomic ">[281]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('110.mp3')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">111</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Rg</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Roentgenio </p><p class="masa_atomic ">[272]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('111.mp4')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">112</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Cn</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Copernicio</p><p class="masa_atomic ">[277]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('112.mp3')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">113</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Nh</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Nihonio</p><p class="masa_atomic ">[272]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('113.mp4')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">114</span>
+                <span class="value-2"></span></p>
+                <p class="orange">FI</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Flerovio</p><p class="masa_atomic ">[285]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('114.mp3')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">115</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Mc</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Moscovio</p><p class="masa_atomic ">[279]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('115.mp4')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">116</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Lv</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Livermorio</p><p class="masa_atomic ">[289]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('116.mp3')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">117</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Ts</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Tennesino</p><p class="masa_atomic ">[286]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('117.mp4')">
+            </td>
+            <td class="silver Noidentique"><p class="contenedor-numeros">
+                <span class="value-1">118</span>
+                <span class="value-2"></span></p>
+                <p class="orange">Og</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Oganesón</p><p class="masa_atomic ">[288]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('118.mp3')">
+            </td>
+            <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span><br>
+                <span class="Level_energi">N</span><br>
+                <span class="Level_energi">O</span><br>
+                <span class="Level_energi">P</span><br>
+                <span class="Level_energi">Q</span></p>
+            </th>
+        </tr>
+        <tr>
+            <th colspan="24"><button class="silver2" onclick="setBorderClasification('silver')"><span>RECONOCIMIENTO NO OFICIALES</span></button></th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td><button class="metalic2" onclick="setBorderClasification('metalic')"><span>Metálico</span></button></td>
+            <td><button class="No_metalico2" onclick="setBorderClasification('No_metalico')"><span>No Metálico</span></button></td>
+            <td><button class="PredominanteMetalico2" onclick="setBorderClasification('PredominanteMetalico')"><span>Predominantemente Metálico</span></button></td>
+            <td><button class="PredominanteNoMetalico2" onclick="setBorderClasification('PredominanteNoMetalico')"><span>Predominantemente No Metálico</span></button></td>
+            <td><button class="Anfoteros2" onclick="setBorderClasification('Anfoteros')"><span>Anfótero</span></button></td>
+            <td><button class="Noidentique2" onclick="setBorderClasification('Noidentique')"><span>No Identificado</span></button></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td><p><span class="periodos">6</span></p></td>
+            <td></td>
+            <td></td>
+            <td class="Serie_aterisco"><p class="contenedor-numeros">
+                <span class="value-1"></span>
+                <span class="value-2"></span></p>
+                <p class="continuacion">*</p>
+                <p class="contenedor-numeros"><span><p class="nombre">LANTÁNIOS</p><p class="masa_atomic "></p></span></p>
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">57</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">La</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Lantano</p><p class="masa_atomic ">138.9055(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('57.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">58</span>
+                <span class="value-2">3,4</span></p>
+                <p class="simbolos_negros">Ce</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Cerio</p><p class="masa_atomic ">140.116(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('58.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">59</span>
+                <span class="value-2">3,4</span></p>
+                <p class="simbolos_negros">Pr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Praseodimio</p><p class="masa_atomic ">140.90765(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('59.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">60</span>
+                <span class="value-2">2,3,4</span></p>
+                <p class="simbolos_negros">Nd</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Neodimio</p><p class="masa_atomic ">144.24(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('60.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">61</span>
+                <span class="value-2">3</span></p>
+                <p class="orange">Pm</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Prometio</p><p class="masa_atomic ">[147]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('61.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">62</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Sm</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Samario</p><p class="masa_atomic ">150.35</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('62.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">63</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Eu</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Europio</p><p class="masa_atomic ">151.964(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('63.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">64</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Gd</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Gadolinio</p><p class="masa_atomic ">157.25(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('64.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">65</span>
+                <span class="value-2">3,4</span></p>
+                <p class="simbolos_negros">Tb</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Terbio</p><p class="masa_atomic ">158.92534(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('65.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">66</span>
+                <span class="value-2">2,3,4</span></p>
+                <p class="simbolos_negros">Dy</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Disprosio</p><p class="masa_atomic ">162.500(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('66.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">67</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Ho</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Holmio</p><p class="masa_atomic ">164.93032(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('67.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">68</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Er</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Erbio</p><p class="masa_atomic ">167.259(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('68.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">69</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Tm</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Tulio</p><p class="masa_atomic ">168.93421(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('69.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">70</span>
+                <span class="value-2">2,3</span></p>
+                <p class="simbolos_negros">Yb</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Iterbio</p><p class="masa_atomic ">173.04(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('70.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">71</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Lu</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Lutecio</p><p class="masa_atomic ">174.967(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('71.mp4')">
+            </td>
+            <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span><br>
+                <span class="Level_energi">N</span><br>
+                <span class="Level_energi">O</span><br>
+                <span class="Level_energi">P</span></p>
+            </th>
+        </tr>
+        <tr>
+            <td><p><span class="periodos">7</span></p></td>
+            <td colspan="2"><button class="MetalesTransicionInterna2" onclick="setBorderClasification('MetalesTransicionInterna')"><span>Metales De Transición Interna</span></button></td>
+            <td class="Serie_aterisco"><p class="contenedor-numeros">
+                <span class="value-1"></span>
+                <span class="value-2"></span></p>
+                <p class="continuacion_amarilla">*</p>
+                <p class="contenedor-numeros"><span><p class="nombre">ACTÍNIDOS</p><p class="masa_atomic "></p></span></p>
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">89</span>
+                <span class="value-2">3</span></p>
+                <p class="simbolos_negros">Ac</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Actinio</p><p class="masa_atomic ">[227]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('89.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">90</span>
+                <span class="value-2">3,4</span></p>
+                <p class="simbolos_negros">Th</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Torio</p><p class="masa_atomic ">232.0381(1)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('90.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">91</span>
+                <span class="value-2">3,4,5</span></p>
+                <p class="simbolos_negros">Pa</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Protactinio</p><p class="masa_atomic ">231.03588(2)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('91.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">92</span>
+                <span class="value-2">3,4,5,6</span></p>
+                <p class="simbolos_negros">U</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Uranio</p><p class="masa_atomic ">238.02891(3)</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('92.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">93</span>
+                <span class="value-2">3,4,5,6</span></p>
+                <p class="orange">Np</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Neptunio</p><p class="masa_atomic ">[237]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('93.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">94</span>
+                <span class="value-2">3,4,5,6</span></p>
+                <p class="orange">Pu</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Plutonio</p><p class="masa_atomic ">[244]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('94.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">95</span>
+                <span class="value-2">2,3,4,5,6</span></p>
+                <p class="orange">Am</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Americio</p><p class="masa_atomic ">[43]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('95.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">96</span>
+                <span class="value-2">3,4</span></p>
+                <p class="orange">Cm</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Curio</p><p class="masa_atomic ">[247]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('96.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">97</span>
+                <span class="value-2">3,4</span></p>
+                <p class="orange">Bk</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Berkelio</p><p class="masa_atomic ">[247]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('97.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">98</span>
+                <span class="value-2">2,3</span></p>
+                <p class="orange">Cf</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Californio</p><p class="masa_atomic ">[251]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('98.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">99</span>
+                <span class="value-2">3</span></p>
+                <p class="orange">Es</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Einstenio</p><p class="masa_atomic ">[252]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('99.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">100</span>
+                <span class="value-2">2,3</span></p>
+                <p class="orange">Fm</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Fermio</p><p class="masa_atomic ">[257]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('100.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">101</span>
+                <span class="value-2">3</span></p>
+                <p class="orange">Md</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Mendelevio</p><p class="masa_atomic ">[258]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('101.mp4')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">102</span>
+                <span class="value-2">2,3</span></p>
+                <p class="orange">No</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Nobelio</p><p class="masa_atomic ">[257]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('102.mp3')">
+            </td>
+            <td class="metal_trancision MetalesTransicionInterna"><p class="contenedor-numeros">
+                <span class="value-1">103</span>
+                <span class="value-2">3</span></p>
+                <p class="orange">Lr</p>
+                <p class="contenedor-numeros"><span><p class="nombre">Laurencio</p><p class="masa_atomic ">[262]</p></span></p>
+                <img src="volumen.png" alt="Imagen 1" class="imagenCelda" onclick="alternarReproduccion('103.mp4')">
+            </td>
+            <th><p><span class="Level_energi">K</span><br>
+                <span class="Level_energi">L</span><br>
+                <span class="Level_energi">M</span><br>
+                <span class="Level_energi">N</span><br>
+                <span class="Level_energi">O</span><br>
+                <span class="Level_energi">P</span><br>
+                <span class="Level_energi">Q</span></p>
+            </th>
+        </tr>
+        <div id="video-container">
+            <video id="background-video" autoplay loop muted>
+                <source src="pp.mp4" type="video/mp4">
+                Tu navegador no soporta la reproducción de videos.
+            </video>
+    </table> 
+    <audio id="audio" controls>
+        <!-- El elemento de audio se inicializa sin una fuente de audio -->
+    </audio>
+    <script>
+        var audio = document.getElementById("audio");
+        var audioReproduciendo = false; // Estado de reproducción
+
+        function alternarReproduccion(rutaAudio, imagen) {
+            if (!audioReproduciendo) {
+                audio.src = rutaAudio; // Cambia la fuente de audio
+                audio.play(); // Reproduce el audio
+                audioReproduciendo = true;
+                imagen.style.opacity = "0.5"; // Cambia la opacidad de la imagen para indicar reproducción
+            } else {
+                audio.pause(); // Pausa el audio
+                audioReproduciendo = false;
+                imagen.style.opacity = "1"; // Restaura la opacidad de la imagen
+            }
+        }
+        function setBorderClasification(theClass) {
+
+            const group = document.getElementsByClassName(theClass)
+            console.log(theClass, group)
+            for (let elemento of group) {
+                elemento.classList.toggle('group_select')
+            }
+        }         
+    </script>  
+    <audio autoplay loop id="miAudio">
+        <source src="nor.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+      </audio>
+      <script>
+        var miAudio = document.getElementById("miAudio");
+        miAudio.volume = 0.01; // Puedes ajustar el valor según tus preferencias, 0.1 es un volumen bajo
+      </script>  
+</body>
+</html>

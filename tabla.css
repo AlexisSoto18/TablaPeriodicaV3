@@ -1,0 +1,218 @@
+p {
+    margin: 0;
+}
+.tabla_periodica{
+    border-collapse: separate 1px;
+    width: 100%;
+    border-spacing: 3px;
+}
+.tabla_periodica{
+    padding: 10px;
+    text-align: center;
+}
+/*titulos*/
+.titulo_1{
+    background: rgb(240,240,240);
+    background: linear-gradient(90deg, rgb(102, 255, 235) 0%, rgba(17, 219, 255, 0.729) 50%, rgb(102, 250, 255) 100%);
+    font-family: 'Croissant One', cursive;
+    text-shadow: rgb(229, 255, 0) 2px 3px 0px;
+    font-size: 20px;
+}
+.titulo_2{
+    background: rgb(240,240,240);
+    background: linear-gradient(90deg, rgb(102, 255, 235) 0%, rgba(17, 219, 255, 0.729) 50%, rgb(102, 250, 255) 100%);
+    font-family: 'Croissant One', cursive;
+    text-shadow: rgb(229, 255, 0) 2px 3px 0px;
+    font-size: 20px; 
+}
+/*Metales*/
+.metales_ligeros {
+background: rgb(255,155,255);
+background: linear-gradient(90deg, rgba(255,155,255,1) 0%, rgba(255,155,255,0.835171568627451) 50%, rgba(255,155,255,1) 100%);
+}
+.Gases_nobles{
+background: rgb(179,102,255);
+background: linear-gradient(90deg, rgba(179,102,255,1) 0%, rgba(179,102,255,0.7287289915966386) 50%, rgba(179,102,255,1) 100%);
+}
+.metal{
+background: rgb(46,204,113);
+background: linear-gradient(90deg, rgba(46,204,113,1) 0%, rgba(46,204,113,0.6166841736694677) 50%, rgba(46,204,113,1) 100%);
+}
+.metal_trancision{
+background: rgb(84,87,222);
+background: linear-gradient(90deg, rgba(84,87,222,1) 0%, rgba(84,87,222,0.6446953781512605) 50%, rgba(84,87,222,1) 100%);
+}
+.No_Metal{
+    background: rgb(255,231,0);
+    background: linear-gradient(90deg, rgba(255,231,0,1) 0%, rgba(245,255,0,0.7287289915966386) 50%, rgba(255,231,0,1) 100%);
+}
+.Metaloides{
+    background: rgb(164,255,0);
+    background: linear-gradient(90deg, rgba(164,255,0,1) 0%, rgba(112,255,0,0.5326505602240896) 50%, rgba(164,255,0,1) 100%);
+}
+.Serie_aterisco{
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0.9220063025210083) 50%, rgba(255,255,255,1) 100%);
+}
+.silver{
+    background: rgb(228,244,254);
+    background: linear-gradient(90deg, rgba(228,244,254,1) 0%, rgba(228,244,254,0.927608543417367) 50%, rgba(228,244,254,1) 100%);
+}
+/*Botones*/
+.silver2{
+    font: oblique bold 130% cursive;
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(228,244,254,1) 0%, rgba(228,244,254,0.927608543417367) 50%, rgba(228,244,254,1) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: inline-grid;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Gases_nobles2{
+    font: oblique bold 130% cursive;
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(179,102,255,1) 0%, rgba(179,102,255,0.7287289915966386) 50%, rgba(179,102,255,1) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Metal2{
+    font: oblique bold 130% cursive;
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(46,204,113,1) 0%, rgba(46,204,113,0.6166841736694677) 50%, rgba(46,204,113,1) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 25px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.metal_trancision2{
+    font: oblique bold 130% cursive;
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(84,87,222,1) 0%, rgba(84,87,222,0.6446953781512605) 50%, rgba(84,87,222,1) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: inline-grid;
+    font-size: 40px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.No_Metal2{ 
+    font: oblique bold 120% cursive;
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(255,231,0,1) 0%, rgba(245,255,0,0.7287289915966386) 50%, rgba(255,231,0,1) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: inline-grid;
+    font-size: 30px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.Metaloides2{
+    font: oblique bold 130% cursive;
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgba(164,255,0,1) 0%, rgba(112,255,0,0.5326505602240896) 50%, rgba(164,255,0,1) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 20px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+.botones_centro{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button:hover span{
+    background: none;
+}
+button:active{
+    transform: scale(1.2);
+}
+.group_select{
+    border: 5px solid rgb(0, 0, 0);
+    transform: scale(1.10);
+}
+/*tabla*/
+.tabla-columna {
+    font-family: 'Croissant One', cursive;
+    background: rgb(255,231,107);
+    background: radial-gradient(circle, rgba(255,231,107,0.8211659663865546) 0%, rgba(255,231,107,1) 100%);
+}
+
+.value-1 {
+    background-color: #1cc2b9;
+}
+
+.value-2 {
+    background-color: antiquewhite;
+}
+
+.contenedor-numeros{
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    text-shadow: 1px  0px 0px rgb(207, 232, 248),
+                 0px  1px 0px rgb(207, 232, 248),
+                -1px  0px 0px rgb(207, 232, 248),
+                 0px -1px 0px rgb(207, 232, 248);
+}
+.nombre{
+    text-align: center;
+    margin: 0;
+}
+
+th, td {
+    border: 1px solid transparent;    
+    border-radius: 20px;
+}
+td{
+    border: 1px solid transparent;
+    text-align: center;
+    vertical-align: middle;
+    transition: transform 0.3s;
+}
+td:hover{
+    transform: scale(1.4);
+}
+th:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s;
+}
+.masa_atomic{
+    margin: 0;
+}
+/*periodos*/
+.periodos{
+    font-family: 'Croissant One', cursive;
+    font-size: 40px;
+    text-shadow: 1px  0px 0px white,
+    0px  1px 0px white,
+   -1px  0px 0px white,
+    0px -1px 0px white;
+}

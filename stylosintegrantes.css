@@ -1,0 +1,76 @@
+.tituo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(0, 255, 0);
+    text-shadow: 6px  0px 0px  rgb(217, 255, 0),
+    0px  6px 0px  rgb(217, 255, 0),
+   -6px  0px 0px   rgb(217, 255, 0),
+    0px -6px 0px   rgb(217, 255, 0);
+
+}
+.subtitulo{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 80px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(2, 2, 2);
+    text-shadow: 6px  0px 0px rgb(0, 217, 255),
+    0px  6px 0px  rgb(0, 217, 255),
+   -6px  0px 0px  rgb(0, 217, 255),
+    0px -6px 0px  rgb(0, 217, 255);
+
+}
+.intragantes{
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin: 20px;
+    text-align: center;
+    color: rgb(217, 255, 0);
+    text-shadow: 6px  0px 0px rgb(0, 217, 255),
+    0px  6px 0px  rgb(0, 217, 255),
+   -6px  0px 0px  rgb(0, 217, 255),
+    0px -6px 0px  rgb(0, 217, 255); 
+}
+.Regreso{
+    margin: 10px;
+    border: 0;
+    background-image: linear-gradient(90deg, rgb(58, 202, 228) 0%, rgb(107, 215, 235) 50%, rgb(80, 67, 255) 100%);
+    border-radius: 8px;
+    color: #fff;
+    display: flex;
+    font-size: 18px;
+    padding: 4px;
+    cursor: pointer;
+    transition: .3s;
+}
+button span{
+    background-color: #111;
+    padding: 16px 24px;
+    border-radius: 6px;
+    transition: .3s;
+}
+button:hover span{
+    background: none;
+}
+button:active{
+    transform: scale(0.9);
+}
+  /* Estilos para las imágenes */
+.nombreDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centra horizontalmente */
+    justify-content: center; /* Centra verticalmente */
+    text-align: center; /* Centra el texto (nombre) dentro del div */
+  }
+  
+.nombreDiv img {
+    max-width: 100%; /* Asegura que la imagen no se desborde del div */
+  }
+.data-image{
+    display: inline-block;
+
+}

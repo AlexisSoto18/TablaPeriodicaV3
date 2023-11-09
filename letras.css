@@ -1,0 +1,105 @@
+/*Dar color al contorno de las letras*/ 
+.simbolos{
+    font-family: 'Croissant One', cursive;
+    font-size: 30px;
+    margin: 0px;
+    padding-left: 0%;
+    color: orangered;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+}
+.blue{
+    font-family: 'Croissant One', cursive;
+    font-size: 30px;
+    margin: 0px;
+    padding-left: 0%;
+    color: rgb(0, 128, 248);
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+}
+.orange{
+    font-family: 'Changa One', cursive;
+    font-size: 30px;
+    margin: 0px;
+    padding-left: 0%;
+    color: orange;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,    
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+}
+.nombre{
+    font-family: 'Changa One', cursive;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Space Mono', monospace;
+    margin: 0;
+    padding-top: 12px;
+}
+.elemento{
+    text-align: center;
+}
+.simbolos_negros{
+    font-family: 'Changa One', cursive;
+    font-family: 'Croissant One', cursive;
+    font-size: 30px;
+    margin: 0px;
+    padding-left: 0%;
+    color: black;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,    
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+
+}
+.Level_energi{
+    font-size: 20px;
+    margin: 0;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,    
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+}
+.continuacion{
+    font-family: 'Changa One', cursive;
+    font-family: 'Croissant One', cursive;
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 0%;
+    color: orange;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,    
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+
+}
+.continuacion_amarilla{
+    font-family: 'Changa One', cursive;
+    font-size: 50px;
+    margin: 0px;
+    padding-left: 0%;
+    color: yellow;
+    text-shadow: 1px  0px 0px white,
+                 0px  1px 0px white,    
+                -1px  0px 0px white,
+                 0px -1px 0px white;
+
+}
+.titulo{
+    font-family: "Cyberpunk";
+    color: #f7f500;
+    text-align: center;
+    font-size: 80px;
+    text-shadow: rgba(0, 208, 255, 1) 2px 3px 0px;
+    line-height: 1.5;
+    padding: 25px 0px;
+
+}
+.tite3{
+    font-size: 30px;
+    margin: 0;
+    font-family: 'Croissant One', cursive;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylosintegrantes.css">
+    <link rel="stylesheet" href="video.css">
+    <title>Integrantes</title>
+</head>
+<body>
+    <div><a href="index.html"><button class="Regreso" onclick="setBorderClasification('')"><span>INICIO</span></button></a></div>
+    <div id="video-container">
+        <video id="background-video" autoplay loop muted>
+            <source src="sto.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de videos.
+        </video>
+    </div>
+    <div id="content">
+        <ul>
+            <div><p class="tituo">Química Básica</p></div>
+            <div class="subtitulo">Ingeniería En Software</div>
+            <div class="nombreDiv" data-image="alexis.jpeg"><p class="intragantes">Alexis Soto Dimas</p></div>
+            <div class="nombreDiv" data-image="kahlid.jpeg"><p class="intragantes">Alan Kahlid Licona Ramírez</p></div>
+            <div class="nombreDiv" data-image="alonso.jpeg"><p class="intragantes">Emilio Alonso Rodríguez Gómez</p></div>
+            <div class="imagenDiv">
+                <img id="imagenMostrada" src="" alt="Imagen" />
+            </div>
+        </ul> 
+    </div>
+    <script src="script.js"></script>
+    <script>
+        var nombreDivs = document.querySelectorAll(".nombreDiv");
+        var imagenMostrada = document.getElementById("imagenMostrada");
+      
+        nombreDivs.forEach(function (div) {
+          div.addEventListener("click", function () {
+            var nuevaImagen = this.getAttribute("data-image");
+            imagenMostrada.src = nuevaImagen;
+          });
+        });
+      </script>  
+      <audio autoplay loop>
+        <source src="inicio.mp3" type="audio/mpeg">
+        Tu navegador no soporta la reproducción de audio.
+      </audio> 
+        
+      
+</body>
+</html>
